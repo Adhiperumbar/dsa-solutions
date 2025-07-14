@@ -99,4 +99,28 @@ I'm solving these to improve my logical thinking, consistency, and interview rea
 
 ---
 
+## 🗓️ 14-07-2025
+
+### ✅ Problem: Contains Duplicate
+
+- **Category:** Hashmap / Set
+- **Difficulty:** Easy
+- **Approaches Tried:**
+  1. ✅ Tried using nested loops — worked, but got TLE due to O(n²) complexity.
+  2. ✅ Then tried using a set to track duplicates — learned that set lookup is O(1), so this gives O(n) time.
+  3. ✅ Also implemented a set-based logic comparing `len(set(nums))` with `len(nums)` — concise and efficient.
+
+- **What I Learned:**
+  - Sets automatically ignore duplicates.
+  - Always be careful with where `return` statements are placed.
+  - Efficiency matters when input size is large.
+  - Comparing lengths is a smart shortcut when checking for duplicates.
+
+- **Final Approach Used:**  
+  ```python
+  class Solution:
+      def containsDuplicate(self, nums: List[int]) -> bool:
+          return len(set(nums)) != len(nums)
+
+
 > ✨ More to come as I keep solving and learning every day!
