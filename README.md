@@ -10,12 +10,19 @@ I’m currently preparing for software engineering roles and using this repo to 
 ├── Arrays/
 │ ├── twosum.py
 │ ├── best_time_to_buy_and_sell_stock.py
-│ ├── Median of Two Sorted Arrays.py
+│ ├── median_of_two_sorted_arrays.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
 │ ├── reverse_words.py
+├── Hashmap/
+│ ├── group_anagrams.py
+├── Stack/
+│ ├── valid_parentheses.py
+├── journal.md
 
+
+---
 
 ## 📌 Problems Solved
 
@@ -24,7 +31,14 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 09-07-2025 | Valid Anagram                                   | String   | Easy        |
 | 09-07-2025 | First Unique Character in a String              | String   | Easy        |
 | 09-07-2025 | Reverse Words in a String                       | String   | Medium      |
-| 10-07-2025 | Two Sum                                          | Array    | Easy        |
+| 10-07-2025 | Two Sum                                         | Array    | Easy        |
 | 10-07-2025 | Best Time to Buy and Sell Stock                 | Array    | Easy        |
 | 10-07-2025 | Median of Two Sorted Arrays (Brute Force)       | Array    | Hard        |
+| 14-07-2025 | Group Anagrams                                  | Hashmap  | Medium      |
+| 14-07-2025 | Valid Parentheses                               | Stack    | Easy        |
 
+---
+
+## 📘 Progress Journal
+
+You can view my reflections and approaches in [`journal.md`](journal.md).
