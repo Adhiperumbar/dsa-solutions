@@ -1,4 +1,4 @@
-# 🚀 Problem: Contains Duplicate
+"""# 🚀 Problem: Contains Duplicate
 # ✅ Date: 14-07-2025
 # 💡 Category: Hashmap / Set
 # 🎯 Difficulty: Easy
@@ -10,7 +10,7 @@
 #      - Fixed it and learned how sets help avoid duplicates.
 #   3. Understood the len(set) vs len(list) trick, but that wasn’t my original method.
 # 📈 Time Complexity: O(n)
-# 📦 Space Complexity: O(n)
+# 📦 Space Complexity: O(n)"""
 
 class Solution:
     def containsDuplicate(self, nums: List[int]) -> bool:

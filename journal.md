@@ -137,4 +137,23 @@ Counter is a subclass of dict from collections that simplifies frequency countin
 List comprehensions can be used to cleanly extract data from tuples.
 Misusing type conversions (int(freqmap)) leads to logical errors.
 
+:
+
+🗓️ 15-07-2025
+✅ Problem: Isomorphic Strings
+Category: Hashmap / Character Mapping
+
+Difficulty: Easy
+
+Approaches Tried:
+❌ Tried using Counter and comparing sorted frequency values — failed because it ignored character positions.
+✅ Then used two hashmaps: mapst to map s → t, and mapts to map t → s.
+✅ Checked that the mapping is consistent at every index in both directions.
+
+What I Learned:
+Frequency-based comparison doesn’t work when position matters.
+For "isomorphic" problems, a bijective (one-to-one and onto) mapping is required.
+Need to track both s → t and t → s mappings to avoid false positives.
+Clean if-else logic and proper indentation make or break these checks.
+
 > ✨ More to come as I keep solving and learning every day!
