@@ -18,6 +18,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 ├── Hashmap/
 │ ├── group_anagrams.py
 │ ├── contains_duplicate.py
+│ ├── TopKFrequent.py
 ├── Stack/
 │ ├── valid_parentheses.py
 ├── journal.md
@@ -37,7 +38,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 10-07-2025 | Median of Two Sorted Arrays (Brute Force)       | Array    | Hard        |
 | 14-07-2025 | Group Anagrams                                  | Hashmap  | Medium      |
 | 14-07-2025 | Valid Parentheses                               | Stack    | Easy        |
-| 14-07-2025 | Contains Duplicate                              | Hashmap  | Easy        |
+| 14-07-2025 | Contains Duplicate                              | Hashmap  | Easy        | 
+| 15-07-2025 | Top K Frequent Elements                         | Hashmap  | Medium     
 
 
 ## 📘 Progress Journal
