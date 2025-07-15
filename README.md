@@ -40,8 +40,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 14-07-2025 | Group Anagrams                                  | Hashmap  | Medium      |
 | 14-07-2025 | Valid Parentheses                               | Stack    | Easy        |
 | 14-07-2025 | Contains Duplicate                              | Hashmap  | Easy        | 
-| 15-07-2025 | Top K Frequent Elements                         | Hashmap  | Medium     
-
+| 15-07-2025 | Top K Frequent Elements                         | Hashmap  | Medium      |
+| 15-07-2025 | Isomorphic Strings                              | Hashmap  | Medium      |
 
 ## 📘 Progress Journal
 
