@@ -122,5 +122,19 @@ I'm solving these to improve my logical thinking, consistency, and interview rea
       def containsDuplicate(self, nums: List[int]) -> bool:
           return len(set(nums)) != len(nums)
 
+🗓️ 15-07-2025
+✅ Problem: Top K Frequent Elements
+Category: Hashmap / Heap
+Difficulty: Medium
+Approaches Tried:
+❌ Initially tried looping over nums and using int(freqmap) >= k — realized this doesn't make sense because freqmap is a dictionary (Counter), not an integer.
+✅ Learned about Counter(nums).most_common(k) — gives the top K frequent items as a list of (element, frequency) tuples.
+✅ Used a list comprehension [item for item, count in freqmap.most_common(k)] to extract just the elements.
+✅ Understood that sorting and extracting top K using frequency is cleaner and more efficient than manual looping.
+What I Learned:
+Counter is a subclass of dict from collections that simplifies frequency counting.
+.most_common(k) directly returns the top K frequent items — very useful!
+List comprehensions can be used to cleanly extract data from tuples.
+Misusing type conversions (int(freqmap)) leads to logical errors.
 
 > ✨ More to come as I keep solving and learning every day!
