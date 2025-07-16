@@ -42,6 +42,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 14-07-2025 | Contains Duplicate                              | Hashmap  | Easy        | 
 | 15-07-2025 | Top K Frequent Elements                         | Hashmap  | Medium      |
 | 15-07-2025 | Isomorphic Strings                              | Hashmap  | Medium      |
+| 16-07-2025 | 3Sum                                            | Array    | Medium      |
 
 ## 📘 Progress Journal
 

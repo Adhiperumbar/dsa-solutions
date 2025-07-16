@@ -156,4 +156,16 @@ For "isomorphic" problems, a bijective (one-to-one and onto) mapping is required
 Need to track both s → t and t → s mappings to avoid false positives.
 Clean if-else logic and proper indentation make or break these checks.
 
+🗓️ 15-07-2025
+
+Difficulty: Medium
+📌 Problem: 3Sum
+🧠 Approach: Brute-force using three nested loops
+🕒 Time Complexity: O(n^3)
+📦 Space Complexity: O(1) (excluding output)
+📝 Notes:
+- Sort the triplet before appending to avoid duplicate combinations
+- Use 'not in result' check to ensure uniqueness
+
+
 > ✨ More to come as I keep solving and learning every day!
