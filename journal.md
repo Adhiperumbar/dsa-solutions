@@ -191,21 +191,21 @@ Space Complexity: O(1)
 
 # 🗓 Date: 17 July 2025
 
-# 🧩 Problem 167: Two Sum II - Input Array Is Sorted (LeetCode)
-# 🔗 Link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
-# 🚀 Approach: Two-Pointer Technique
-# ⏱ Time Complexity: O(n)
-# 🧠 Space Complexity: O(1)
-# 🧠 Thought Process:
-# - Since the array is sorted, I used two pointers: one at the start, one at the end.
-# - If the sum is less than target, move left pointer.
-# - If the sum is more than target, move right pointer.
-# - If sum equals target, return indices (1-based).
-# 🐞 Mistake I initially made:
-# - I forgot that indices are **1-based** (not 0-based) as per the problem statement.
-# - So I had to return [left + 1, right + 1].
+🧩 Problem 167: Two Sum II - Input Array Is Sorted (LeetCode)
+🔗 Link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+🚀 Approach: Two-Pointer Technique
+⏱ Time Complexity: O(n)
+🧠 Space Complexity: O(1)
+🧠 Thought Process:
+Since the array is sorted, I used two pointers: one at the start, one at the end.
+If the sum is less than target, move left pointer.
+If the sum is more than target, move right pointer.
+If sum equals target, return indices (1-based).
+🐞 Mistake I initially made:
+I forgot that indices are **1-based** (not 0-based) as per the problem statement.
+So I had to return [left + 1, right + 1].
 # ✅ What I learned:
-# - Always read the problem constraints carefully (1-based indexing!).
-# - Two-pointer strategy is very efficient for sorted arrays.
+ Always read the problem constraints carefully (1-based indexing!).
+Two-pointer strategy is very efficient for sorted arrays.
 
 > ✨ More to come as I keep solving and learning every day!
