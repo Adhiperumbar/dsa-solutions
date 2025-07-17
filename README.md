@@ -11,6 +11,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── twosum.py
 │ ├── best_time_to_buy_and_sell_stock.py
 │ ├── median_of_two_sorted_arrays.py
+│ ├── twosumII.py
+│ ├── searchinsertposition.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -43,6 +45,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 15-07-2025 | Top K Frequent Elements                         | Hashmap  | Medium      |
 | 15-07-2025 | Isomorphic Strings                              | Hashmap  | Medium      |
 | 16-07-2025 | 3Sum                                            | Array    | Medium      |
+| 17-07-2025 | 2Sum II                                         | Array    | Medium      |
+| 17-07-2025 | Search Insert Position                          | Array    | Easy        |
 
 ## 📘 Progress Journal
 

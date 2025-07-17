@@ -167,5 +167,26 @@ Difficulty: Medium
 - Sort the triplet before appending to avoid duplicate combinations
 - Use 'not in result' check to ensure uniqueness
 
+📘 July 17, 2025
+✅ Problem Solved: Two Sum II – Input Array Is Sorted
+Platform: LeetCode
+Category: Two Pointers
+Approach:
+Used two pointers starting from both ends of the sorted array.
+If the sum is greater than the target, move the right pointer left.
+If the sum is less than the target, move the left pointer right.
+If the sum matches the target, return the indices (1-based).
+Time Complexity: O(n)
+Space Complexity: O(1)
 
+📘 July 17, 2025
+✅ Problem Solved: Search Insert Position
+Platform: LeetCode
+Category: Binary Search
+Approach:
+Used binary search to efficiently locate the target index.
+If the target is found, return the index.
+If not found, return the index where it would be inserted to maintain the sorted order.
+Time Complexity: O(log n)
+Space Complexity: O(1)
 > ✨ More to come as I keep solving and learning every day!
