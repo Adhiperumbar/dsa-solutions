@@ -122,7 +122,7 @@ I'm solving these to improve my logical thinking, consistency, and interview rea
       def containsDuplicate(self, nums: List[int]) -> bool:
           return len(set(nums)) != len(nums)
 
-🗓️ 15-07-2025
+# 🗓 Date: 15 July 2025
 ✅ Problem: Top K Frequent Elements
 Category: Hashmap / Heap
 Difficulty: Medium
@@ -138,8 +138,7 @@ List comprehensions can be used to cleanly extract data from tuples.
 Misusing type conversions (int(freqmap)) leads to logical errors.
 
 :
-
-🗓️ 15-07-2025
+# 🗓 Date: 15 July 2025
 ✅ Problem: Isomorphic Strings
 Category: Hashmap / Character Mapping
 
@@ -156,7 +155,7 @@ For "isomorphic" problems, a bijective (one-to-one and onto) mapping is required
 Need to track both s → t and t → s mappings to avoid false positives.
 Clean if-else logic and proper indentation make or break these checks.
 
-🗓️ 16-07-2025
+# 🗓 Date: 16 July 2025
 
 Difficulty: Medium
 📌 Problem: 3Sum
@@ -167,7 +166,7 @@ Difficulty: Medium
 - Sort the triplet before appending to avoid duplicate combinations
 - Use 'not in result' check to ensure uniqueness
 
-📘 July 17, 2025
+# 🗓 Date: 17 July 2025
 ✅ Problem Solved: Two Sum II – Input Array Is Sorted
 Platform: LeetCode
 Category: Two Pointers
@@ -179,7 +178,7 @@ If the sum matches the target, return the indices (1-based).
 Time Complexity: O(n)
 Space Complexity: O(1)
 
-📘 July 17, 2025
+# 🗓 Date: 17 July 2025
 ✅ Problem Solved: Search Insert Position
 Platform: LeetCode
 Category: Binary Search
@@ -189,4 +188,24 @@ If the target is found, return the index.
 If not found, return the index where it would be inserted to maintain the sorted order.
 Time Complexity: O(log n)
 Space Complexity: O(1)
+
+# 🗓 Date: 17 July 2025
+
+# 🧩 Problem 167: Two Sum II - Input Array Is Sorted (LeetCode)
+# 🔗 Link: https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/
+# 🚀 Approach: Two-Pointer Technique
+# ⏱ Time Complexity: O(n)
+# 🧠 Space Complexity: O(1)
+# 🧠 Thought Process:
+# - Since the array is sorted, I used two pointers: one at the start, one at the end.
+# - If the sum is less than target, move left pointer.
+# - If the sum is more than target, move right pointer.
+# - If sum equals target, return indices (1-based).
+# 🐞 Mistake I initially made:
+# - I forgot that indices are **1-based** (not 0-based) as per the problem statement.
+# - So I had to return [left + 1, right + 1].
+# ✅ What I learned:
+# - Always read the problem constraints carefully (1-based indexing!).
+# - Two-pointer strategy is very efficient for sorted arrays.
+
 > ✨ More to come as I keep solving and learning every day!
