@@ -48,6 +48,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 16-07-2025 | 3Sum                                            | Array    | Medium      |
 | 17-07-2025 | 2Sum II                                         | Array    | Medium      |
 | 17-07-2025 | Search Insert Position                          | Array    | Easy        |
+| 17-07-2025 | Container with  most water                      | Array    | Medium      |
+| 18-07-2025 | Minimum Size Subarray Sum                       | Array    | Medium      |
 
 ## 📘 Progress Journal
 

@@ -208,4 +208,13 @@ So I had to return [left + 1, right + 1].
  Always read the problem constraints carefully (1-based indexing!).
 Two-pointer strategy is very efficient for sorted arrays.
 
+# 🗓 Date: 18 July 2025
+✅ Problem: Minimum Size Subarray Sum
+🔗 LeetCode: https://leetcode.com/problems/minimum-size-subarray-sum/
+🗓️ Date Solved: 18-07-2025
+🧠 Approach: Sliding Window
+📝 Notes: I used a variable start to track the start of the sliding window. For each end, I add the value to sum. If sum >= target, I try to shrink the window from the left. Track the minimum window length. Return 0 if no valid subarray found.
+
+
+
 > ✨ More to come as I keep solving and learning every day!
