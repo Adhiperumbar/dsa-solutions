@@ -25,11 +25,11 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── isomorphic_strings.py
 ├── Stack/
 │ ├── valid_parentheses.py
-├── journal.md
 ├── Linked Lists/
 │ ├── reverselinkedlist.py
 │ ├── palindromelinkedlist.py
-
+│ ├── deleteanode.py
+├── journal.md
 ---
 
 ## 📌 Problems Solved
@@ -54,6 +54,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 18-07-2025 | Minimum Size Subarray Sum                       | Array          | Medium      |
 | 19-07-2025 | Reverse Linked List                             | Linked List    | Easy        |
 | 19-07-2025 | Palindrome Linked List                          | Linked List    | Easy        |
+| 19-07-2025 | Delete a node in a Linked List                  | Linked List    | Medium      |
 
 ## 📘 Progress Journal
 

@@ -239,4 +239,15 @@ Returned prev, which becomes the new head of the reversed list.
 Time Complexity: O(n)
 Space Complexity: O(1)
 
+✅ Problem: Delete Node in a Linked List  
+🔗 LeetCode: https://leetcode.com/problems/delete-node-in-a-linked-list/  
+📅 Date Solved: 19-07-2025  
+🧠 Approach: In-Place Node Overwrite  
+📝 Notes:
+- The node to be deleted is **not the tail**, and we are **not given head**.
+- So instead of traditional deletion, I:
+  - Copied the next node’s value into the current node.
+  - Then bypassed the next node using `node.next = node.next.next`.
+- This effectively "deletes" the given node by overwriting it.
+
 > ✨ More to come as I keep solving and learning every day!
