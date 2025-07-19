@@ -215,6 +215,28 @@ Two-pointer strategy is very efficient for sorted arrays.
 🧠 Approach: Sliding Window
 📝 Notes: I used a variable start to track the start of the sliding window. For each end, I add the value to sum. If sum >= target, I try to shrink the window from the left. Track the minimum window length. Return 0 if no valid subarray found.
 
+# 🗓 Date: 19 July 2025
+✅ Problem: Palindrome Linked List
+🔗 LeetCode: https://leetcode.com/problems/palindrome-linked-list/
+🗓️ Date Solved: 19-07-2025
+🧠 Approach: Two Pointers + Reverse Second Half
+📝 Notes:
+Used slow and fast pointers to reach the middle of the linked list.
+Reversed the second half of the list in-place.
+Compared the first half and the reversed second half node-by-node.
+If any mismatch is found, return False; otherwise, it's a palindrome.
+No extra space used — O(n) time and O(1) space.
 
+✅ Problem: Reverse Linked List
+🔗 LeetCode: https://leetcode.com/problems/reverse-linked-list/
+🗓️ Date Solved: 19-07-2025
+🧠 Approach: Iterative Reversal
+📝 Notes:
+Used two pointers prev and cur to reverse the list in-place.
+At each step, saved the next node and redirected cur.next to prev.
+Updated pointers until reaching the end of the list.
+Returned prev, which becomes the new head of the reversed list.
+Time Complexity: O(n)
+Space Complexity: O(1)
 
 > ✨ More to come as I keep solving and learning every day!
