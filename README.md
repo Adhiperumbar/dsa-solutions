@@ -29,6 +29,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── reverselinkedlist.py
 │ ├── palindromelinkedlist.py
 │ ├── deleteanode.py
+│ ├── removenthnode.py
 ├── journal.md
 ---
 
