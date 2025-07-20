@@ -250,4 +250,19 @@ Space Complexity: O(1)
   - Then bypassed the next node using `node.next = node.next.next`.
 - This effectively "deletes" the given node by overwriting it.
 
+# 🗓 Date: 19 July 2025
+
+✅ Problem: Remove Nth Node From End of List  
+🔗 LeetCode: https://leetcode.com/problems/remove-nth-node-from-end-of-list/  
+📅 Date Solved: 19-07-2025  
+🧠 Approach: Two-Pass Traversal  
+📝 Notes:
+- First, I traversed the list once to count the total number of nodes (`count`).
+- Then I calculated the position from the start: `count - n`.
+- If the node to be removed is the head, return `head.next`.
+- Otherwise, traversed again to the node just before the one to be deleted.
+- Skipped the `nth` node using: `cur.next = cur.next.next`.
+
+
+
 > ✨ More to come as I keep solving and learning every day!

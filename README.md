@@ -55,6 +55,10 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 19-07-2025 | Reverse Linked List                             | Linked List    | Easy        |
 | 19-07-2025 | Palindrome Linked List                          | Linked List    | Easy        |
 | 19-07-2025 | Delete a node in a Linked List                  | Linked List    | Medium      |
+| 19-07-2025 | Remove Nth node from the end of the list        | Linked List    | Medium      |
+
+
+
 
 ## 📘 Progress Journal
 
