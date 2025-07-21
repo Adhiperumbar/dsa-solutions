@@ -250,11 +250,11 @@ Space Complexity: O(1)
   - Then bypassed the next node using `node.next = node.next.next`.
 - This effectively "deletes" the given node by overwriting it.
 
-# 🗓 Date: 19 July 2025
+# 🗓 Date: 20 July 2025
 
 ✅ Problem: Remove Nth Node From End of List  
 🔗 LeetCode: https://leetcode.com/problems/remove-nth-node-from-end-of-list/  
-📅 Date Solved: 19-07-2025  
+📅 Date Solved: 20-07-2025  
 🧠 Approach: Two-Pass Traversal  
 📝 Notes:
 - First, I traversed the list once to count the total number of nodes (`count`).
@@ -263,6 +263,16 @@ Space Complexity: O(1)
 - Otherwise, traversed again to the node just before the one to be deleted.
 - Skipped the `nth` node using: `cur.next = cur.next.next`.
 
+✅ Problem: Longest Substring Without Repeating Characters  
+🔗 LeetCode: https://leetcode.com/problems/longest-substring-without-repeating-characters/  
+📅 Date Solved: 21-07-2025  
+🧠 Approach: Sliding Window with HashSet  
+📝 Notes:
+- Used a `set` to store unique characters in the current window.
+- Used two pointers (`left` and `right`) to manage the window.
+- If a duplicate character is found at `s[right]`, move the `left` pointer and remove characters from the set until it's unique again.
+- After each iteration, update `maxlen` with the size of the current valid window.
+- Time Complexity: O(n), Space Complexity: O(n)
 
 
 > ✨ More to come as I keep solving and learning every day!
