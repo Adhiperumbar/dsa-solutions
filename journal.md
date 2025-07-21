@@ -274,5 +274,32 @@ Space Complexity: O(1)
 - After each iteration, update `maxlen` with the size of the current valid window.
 - Time Complexity: O(n), Space Complexity: O(n)
 
+✅ Problem: Subsets
+🔗 LeetCode Link
+🗓️ Date Solved: 21-07-2025
+🧠 Approach: Backtracking (Recursive)
+📁 Category: Recursion / Subsets / Backtracking
+⚙️ Time Complexity: O(2^n)
+🧮 Space Complexity: O(n) (path size during recursion)
+💡 What I Learned:
+Used backtracking to generate all possible subsets.
+At each index, chose to either include or exclude an element.
+Used path[:] to store a copy of current path, not reference (to avoid mutation issues).
+Added subsets to the result list s at every recursive level.
+Used path.pop() to backtrack after recursive call.
+
+✅ Problem: Subsets II
+🔗 LeetCode Link
+🗓️ Date Solved: 21-07-2025
+🧠 Approach: Backtracking with Duplicate Handling
+📁 Category: Recursion / Backtracking / Subsets
+⚙️ Time Complexity: O(2^n)
+🧮 Space Complexity: O(n) (depth of recursive stack)
+💡 What I Learned:
+Used backtracking to generate all possible subsets even with duplicates.
+Sorted the array to group duplicates together, which helped in skipping repeated branches.
+The line if nums[i] == nums[i - 1] and i > index: ensures we skip duplicate elements only if they are not the first element at that level.
+Added path[:] to result for a copy of current state.
+Practiced how pruning the recursion tree reduces duplicate combinations.
 
 > ✨ More to come as I keep solving and learning every day!
