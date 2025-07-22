@@ -263,6 +263,8 @@ Space Complexity: O(1)
 - Otherwise, traversed again to the node just before the one to be deleted.
 - Skipped the `nth` node using: `cur.next = cur.next.next`.
 
+# 🗓 Date: 21 July 2025
+
 ✅ Problem: Longest Substring Without Repeating Characters  
 🔗 LeetCode: https://leetcode.com/problems/longest-substring-without-repeating-characters/  
 📅 Date Solved: 21-07-2025  
@@ -301,5 +303,21 @@ Sorted the array to group duplicates together, which helped in skipping repeated
 The line if nums[i] == nums[i - 1] and i > index: ensures we skip duplicate elements only if they are not the first element at that level.
 Added path[:] to result for a copy of current state.
 Practiced how pruning the recursion tree reduces duplicate combinations.
+
+
+# 🗓 Date: 23 July 2025
+
+✅ Problem: Subset XOR Sum
+🔗 LeetCode Link
+🗓️ Date Solved: 23-07-2025
+🧠 Approach: Backtracking
+📁 Category: Recursion / Bit Manipulation / Subsets
+⚙️ Time Complexity: O(2^n) — where n is the number of elements in nums
+🧮 Space Complexity: O(n) — recursive stack depth
+💡 What I Learned:
+Used backtracking to explore all possible subsets.
+At each step, made a choice to include or exclude the current element using XOR.
+Maintained a total variable to accumulate the XOR values of all subsets.
+Used nonlocal to modify the outer total variable from inside the nested function.
 
 > ✨ More to come as I keep solving and learning every day!
