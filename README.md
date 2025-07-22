@@ -34,6 +34,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 ├── Backtracking/
 │ ├── Subsets.py
 │ ├── Subsets2.py
+│ ├── sumofallsubsets_EXORtotal.py
 ├── journal.md
 ---
 
@@ -64,6 +65,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 21-07-2025 | Longest Substring Without Repeating Charecters  | String         | Medium      |
 | 21-07-2025 | Subsets                                         | Backtracking   | Medium      |
 | 21-07-2025 | SubsetsII                                       | Backtracking   | Medium      |
+| 22-07-2025 | Sum of All Subset XOR Totals                    | Backtracking   | Easy        |
 
 ## 📘 Progress Journal
 
