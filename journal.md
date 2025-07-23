@@ -305,11 +305,11 @@ Added path[:] to result for a copy of current state.
 Practiced how pruning the recursion tree reduces duplicate combinations.
 
 
-# 🗓 Date: 23 July 2025
+# 🗓 Date: 22 July 2025
 
 ✅ Problem: Subset XOR Sum
 🔗 LeetCode Link
-🗓️ Date Solved: 23-07-2025
+🗓️ Date Solved: 22-07-2025
 🧠 Approach: Backtracking
 📁 Category: Recursion / Bit Manipulation / Subsets
 ⚙️ Time Complexity: O(2^n) — where n is the number of elements in nums
@@ -319,5 +319,20 @@ Used backtracking to explore all possible subsets.
 At each step, made a choice to include or exclude the current element using XOR.
 Maintained a total variable to accumulate the XOR values of all subsets.
 Used nonlocal to modify the outer total variable from inside the nested function.
+
+# 🗓 Date: 23 July 2025
+
+✅ Problem: Permutations
+🔗 LeetCode Link
+🗓️ Date Solved: 23-07-2025
+🧠 Approach: Backtracking
+📁 Category: Backtracking / Recursion
+⚙️ Time Complexity: O(n * n!)
+🧮 Space Complexity: O(n) for the recursive call stack
+💡 What I Learned:
+Used a backtracking approach to generate all permutations.
+Created a helper function backtrack(path) where path stores the current permutation.
+Used if len(path) == len(nums) to check for completion of one permutation.
+Appended a copy of path using path[:] to avoid reference issues.
 
 > ✨ More to come as I keep solving and learning every day!

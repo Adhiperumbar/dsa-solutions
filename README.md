@@ -35,6 +35,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── Subsets.py
 │ ├── Subsets2.py
 │ ├── sumofallsubsets_EXORtotal.py
+│ ├── Permutations.py
 ├── journal.md
 ---
 
@@ -66,6 +67,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 21-07-2025 | Subsets                                         | Backtracking   | Medium      |
 | 21-07-2025 | SubsetsII                                       | Backtracking   | Medium      |
 | 22-07-2025 | Sum of All Subset XOR Totals                    | Backtracking   | Easy        |
+| 23-07-2025 | Permutations                                    | Backtracking   | Medium      |
 
 ## 📘 Progress Journal
 
