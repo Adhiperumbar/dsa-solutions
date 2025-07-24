@@ -16,6 +16,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── containerwithmostwater.py
 │ ├── threesumbruteforce.py
 │ ├── kidswithgreatestnumberofcandies.py
+│ ├── gcd.py
+│ ├── minsubarraylen.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -71,7 +73,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 22-07-2025 | Sum of All Subset XOR Totals                    | Backtracking   | Easy        |
 | 23-07-2025 | Permutations                                    | Backtracking   | Medium      |
 | 24-07-2025 | Kids With Greatest Number of candies            | Array          | Easy        |
-
+| 24-07-2025 | Greatest Common Divisor of Strings              | Array          | Easy        |
 
 
 ## 📘 Progress Journal

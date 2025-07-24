@@ -347,4 +347,14 @@ First found the current maximum candies any child has using max().
 Then looped through each child's candy count and checked whether giving them extra candies would make them ≥ max.
 Appended True or False accordingly to the result list.
 
+✅ Problem: Greatest Common Divisor of Strings
+🔗 LeetCode: https://leetcode.com/problems/greatest-common-divisor-of-strings/
+🗓️ Date Solved: 24-07-2025
+🧠 Approach: String Concatenation Check + Euclidean Algorithm
+📝 Notes:
+First, checked if str1 + str2 == str2 + str1. If not, there’s no common base string, so returned "".
+If the check passed, used the Euclidean algorithm to find the GCD of the lengths of both strings.
+Returned the substring of str1 from 0 to gcd(length1, length2) as the answer.
+
+
 > ✨ More to come as I keep solving and learning every day!
