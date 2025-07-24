@@ -356,5 +356,15 @@ First, checked if str1 + str2 == str2 + str1. If not, there’s no common base s
 If the check passed, used the Euclidean algorithm to find the GCD of the lengths of both strings.
 Returned the substring of str1 from 0 to gcd(length1, length2) as the answer.
 
+✅ Problem: Merge Strings Alternately
+🔗 LeetCode: https://leetcode.com/problems/merge-strings-alternately/
+🗓️ Date Solved: 24-07-2025
+🧠 Approach: Index-Based Merging Using Lists
+📝 Notes:
+Converted both strings into lists to access characters by index.
+Used a loop running up to the length of the longer word.
+Added characters from each word if the index was within bounds.
+Used ''.join(s) to convert the final list of characters into a merged string.
+Also handled edge cases like empty input strings.
 
 > ✨ More to come as I keep solving and learning every day!

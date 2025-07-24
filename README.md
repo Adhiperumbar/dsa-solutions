@@ -23,6 +23,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── first_unique_character.py
 │ ├── longestsubstringwithoutrepeatingchar.py
 │ ├── reverse_words.py
+│ ├── mergestringsalternatively.py
 ├── Hashmap/
 │ ├── group_anagrams.py
 │ ├── contains_duplicate.py
@@ -74,7 +75,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 23-07-2025 | Permutations                                    | Backtracking   | Medium      |
 | 24-07-2025 | Kids With Greatest Number of candies            | Array          | Easy        |
 | 24-07-2025 | Greatest Common Divisor of Strings              | Array          | Easy        |
-
+| 24-07-2025 | Merge Strings Alternatively                     | Strings        | Easy        |
 
 ## 📘 Progress Journal
 
