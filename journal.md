@@ -335,4 +335,16 @@ Created a helper function backtrack(path) where path stores the current permutat
 Used if len(path) == len(nums) to check for completion of one permutation.
 Appended a copy of path using path[:] to avoid reference issues.
 
+# 🗓 Date: 24 July 2025
+Problem: Kids With the Greatest Number of Candies
+🔗 LeetCode: https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/
+🗓️ Date Solved: 24-07-2025
+🧠 Approach: Simple Iteration + Max
+Time Complexity: O(n)
+Space Complexity: O(n)
+📝 Notes:
+First found the current maximum candies any child has using max().
+Then looped through each child's candy count and checked whether giving them extra candies would make them ≥ max.
+Appended True or False accordingly to the result list.
+
 > ✨ More to come as I keep solving and learning every day!

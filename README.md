@@ -14,6 +14,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── twosumII.py
 │ ├── searchinsertposition.py
 │ ├── containerwithmostwater.py
+│ ├── threesumbruteforce.py
+│ ├── kidswithgreatestnumberofcandies.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -68,6 +70,9 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 21-07-2025 | SubsetsII                                       | Backtracking   | Medium      |
 | 22-07-2025 | Sum of All Subset XOR Totals                    | Backtracking   | Easy        |
 | 23-07-2025 | Permutations                                    | Backtracking   | Medium      |
+| 24-07-2025 | Kids With Greatest Number of candies            | Array          | Easy        |
+
+
 
 ## 📘 Progress Journal
 
