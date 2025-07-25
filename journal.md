@@ -367,4 +367,20 @@ Added characters from each word if the index was within bounds.
 Used ''.join(s) to convert the final list of characters into a merged string.
 Also handled edge cases like empty input strings.
 
+# 🗓 Date: 25 July 2025
+
+✅ Problem: Remove Stars From a String
+🔗 LeetCode: https://leetcode.com/problems/remove-stars-from-a-string
+📅 Date Solved: 25-07-2025
+🧠 Approach: Stack (using List)
+📝 Notes:
+I used a list t as a stack to simulate the removal of characters.
+While traversing the string:
+If the character is not "*", I added it to the stack.
+If it is "*", I popped the last character from the stack.
+After the loop, I joined the stack to form the final string.
+This approach mimics a backspace-like behavior.
+I understood how stacks can be useful in undo-type string manipulation.
+
+
 > ✨ More to come as I keep solving and learning every day!

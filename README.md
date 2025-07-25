@@ -31,6 +31,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── isomorphic_strings.py
 ├── Stack/
 │ ├── valid_parentheses.py
+│ ├── removestarsfromastring.py
 ├── Linked Lists/
 │ ├── reverselinkedlist.py
 │ ├── palindromelinkedlist.py
@@ -76,6 +77,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 24-07-2025 | Kids With Greatest Number of candies            | Array          | Easy        |
 | 24-07-2025 | Greatest Common Divisor of Strings              | Array          | Easy        |
 | 24-07-2025 | Merge Strings Alternatively                     | Strings        | Easy        |
+| 25-07-2025 | Removing Stars From a String                    | Stacks         | Medium      |
+
 
 ## 📘 Progress Journal
 
