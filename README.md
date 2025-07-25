@@ -37,6 +37,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── palindromelinkedlist.py
 │ ├── deleteanode.py
 │ ├── removenthnode.py
+| ├── deletethemiddlenode.py
 ├── Backtracking/
 │ ├── Subsets.py
 │ ├── Subsets2.py
@@ -78,7 +79,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 24-07-2025 | Greatest Common Divisor of Strings              | Array          | Easy        |
 | 24-07-2025 | Merge Strings Alternatively                     | Strings        | Easy        |
 | 25-07-2025 | Removing Stars From a String                    | Stacks         | Medium      |
-
+| 25-07-2025 | Deleting the middle node of a Linked List       | Linked List    | Medium      |
 
 ## 📘 Progress Journal
 
