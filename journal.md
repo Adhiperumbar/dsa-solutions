@@ -382,5 +382,19 @@ After the loop, I joined the stack to form the final string.
 This approach mimics a backspace-like behavior.
 I understood how stacks can be useful in undo-type string manipulation.
 
+✅ Problem: Delete the Middle Node of a Linked List
+🔗 LeetCode: https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/
+🗓️ Date Solved: 25-07-2025
+🧠 Approach: Two-pass Linked List Traversal
+📝 Notes:
+Handled edge cases where list is empty or has only one node.
+First traversal to count total nodes (n).
+Middle index calculated as n // 2.
+Second traversal to reach node before middle.
+Adjusted pointers to skip the middle node.
+Returned modified linked list head.
+Simple but requires two traversals.
+Optimization possible using slow and fast pointers to achieve one pass.
+
 
 > ✨ More to come as I keep solving and learning every day!

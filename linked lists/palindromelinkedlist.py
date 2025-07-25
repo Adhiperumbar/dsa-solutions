@@ -3,15 +3,10 @@
 🗓️ Date Solved: 19-07-2025
 🧠 Approach: Two Pointers + Reverse Second Half
 📝 Notes:
-
 Used slow and fast pointers to reach the middle of the linked list.
-
 Reversed the second half of the list in-place.
-
 Compared the first half and the reversed second half node-by-node.
-
 If any mismatch is found, return False; otherwise, it's a palindrome.
-
 No extra space used — O(n) time and O(1) space.
 """
 
