@@ -82,6 +82,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 25-07-2025 | Removing Stars From a String                    | Stacks         | Medium      |
 | 25-07-2025 | Deleting the middle node of a Linked List       | Linked List    | Medium      |
 | 26-07-2025 | Can Place Flowers                               | Strings        | Easy        |
+| 26-07-2025 | Product of Array Except Self                    | Array          | Medium      |
+
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
