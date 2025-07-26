@@ -396,5 +396,18 @@ Returned modified linked list head.
 Simple but requires two traversals.
 Optimization possible using slow and fast pointers to achieve one pass.
 
+# 🗓 Date: 26 July 2025
 
+✅ Problem: Can Place Flowers
+🔗 LeetCode: https://leetcode.com/problems/can-place-flowers/
+🗓️ Date Solved: 26-07-2025
+🧠 Approach: Greedy - Linear Scan with Local Conditions
+📝 Notes:
+Checked if a flower can be planted at index i by ensuring both neighbors are empty or nonexistent.
+Edge cases like start (i == 0) and end (i == len - 1) handled using logical OR conditions.
+If position valid, plant flower and increment count.
+Early return if enough flowers are placed (c >= n).
+Simple, clean, and efficient approach using O(1) space.
+Avoided unnecessary backtracking or recursion.
+Could optimize further by breaking early once condition is satisfied.
 > ✨ More to come as I keep solving and learning every day!

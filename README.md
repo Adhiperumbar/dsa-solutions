@@ -18,6 +18,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── kidswithgreatestnumberofcandies.py
 │ ├── gcd.py
 │ ├── minsubarraylen.py
+│ ├── canplotflowers.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -80,7 +81,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 24-07-2025 | Merge Strings Alternatively                     | Strings        | Easy        |
 | 25-07-2025 | Removing Stars From a String                    | Stacks         | Medium      |
 | 25-07-2025 | Deleting the middle node of a Linked List       | Linked List    | Medium      |
-
+| 26-07-2025 | Can Place Flowers                               | Strings        | Easy        |
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
