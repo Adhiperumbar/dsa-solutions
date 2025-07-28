@@ -410,6 +410,7 @@ Early return if enough flowers are placed (c >= n).
 Simple, clean, and efficient approach using O(1) space.
 Avoided unnecessary backtracking or recursion.
 Could optimize further by breaking early once condition is satisfied.
+
 ✅ Problem: Product of Array Except Self  
 🔗 LeetCode: https://leetcode.com/problems/product-of-array-except-self/  
 🗓️ Date Solved: 26-07-2025  
@@ -424,5 +425,20 @@ Avoided extra space by storing prefix directly in `res` and using a single varia
 ✅ Time: O(n), ✅ Space: O(1) (excluding the output array).  
 A clean, efficient approach using two simple passes!
 
+# 🗓 Date: 28 July 2025
+
+Problem: LeetCode 643 - Maximum Average Subarray I
+Approach: Sliding Window (Fixed Size)
+🔗 LeetCode: https://leetcode.com/problems/maximum-average-subarray-i/ 
+✅ What I did:
+Used a fixed-size sliding window of size `k`
+Maintained a running sum for the current window
+Updated max average by comparing with each new window sum
+Key Learnings:
+float('-inf') is helpful for max initialization
+Sliding window avoids repeated summation => O(n) time, O(1) space
+⚙️ Improvements:
+Initially used a counter to track window size
+Later simplified using index-based window sliding
 
 > ✨ More to come as I keep solving and learning every day!

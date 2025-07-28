@@ -19,6 +19,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── gcd.py
 │ ├── minsubarraylen.py
 │ ├── canplotflowers.py
+│ ├── productofarrayexceptself.py
+│ ├── maxaveragesubarray1.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -83,6 +85,9 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 25-07-2025 | Deleting the middle node of a Linked List       | Linked List    | Medium      |
 | 26-07-2025 | Can Place Flowers                               | Strings        | Easy        |
 | 26-07-2025 | Product of Array Except Self                    | Array          | Medium      |
+| 28-07-2025 | Maximum Average Subarray I                      | Array          | Easy        |
+| 28-07-2025 | Maximum Number of Vowels in a Substring of Given Length
+
 
 ## 📘 Progress Journal
 
