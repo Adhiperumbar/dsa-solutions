@@ -441,4 +441,18 @@ Sliding window avoids repeated summation => O(n) time, O(1) space
 Initially used a counter to track window size
 Later simplified using index-based window sliding
 
+✅ Problem: Maximum Number of Vowels in a Substring of Given Length
+🔗 LeetCode: https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/
+🗓️ Date Solved: 28-07-2025
+🧠 Approach: Sliding Window (Fixed Size)
+📝 Notes:
+Goal: Find the maximum number of vowels in any substring of length k.
+Used a fixed-size sliding window to maintain vowel count efficiently.
+First, counted vowels in the initial window of size k.
+Then, for each character moving into the window, updated the count by adding it (if vowel) and subtracting the character that slid out (if vowel).
+Updated the max vowel count seen so far at each step.
+This avoids recalculating vowels for each window and runs in linear time.
+✅ Time: O(n), ✅ Space: O(1)
+Clean and optimal use of sliding window for character counting problems!
+
 > ✨ More to come as I keep solving and learning every day!
