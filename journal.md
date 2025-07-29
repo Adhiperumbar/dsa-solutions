@@ -455,4 +455,13 @@ This avoids recalculating vowels for each window and runs in linear time.
 ✅ Time: O(n), ✅ Space: O(1)
 Clean and optimal use of sliding window for character counting problems!
 
+# 🗓 Date: 29 July 2025
+
+✅ Problem: Find the Difference of Two Arrays
+🔗 LeetCode: https://leetcode.com/problems/find-the-difference-of-two-arrays/
+🗓️ Date Solved: 29-07-2025
+🧠 Approach: Set Difference using HashMap (Python set)
+
+
+
 > ✨ More to come as I keep solving and learning every day!

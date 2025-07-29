@@ -1,16 +1,13 @@
-"""# Date Solved: 28/07
+"""# Date Solved: 28/07/2025
 # Problem: LeetCode 643 - Maximum Average Subarray I
 # Approach: Sliding Window (Fixed Size)
-#
 # ✅ What I did:
 # - Used a fixed-size sliding window of size `k`
 # - Maintained a running sum for the current window
 # - Updated max average by comparing with each new window sum
-#
 # 💡 Key Learnings:
 # - float('-inf') is helpful for max initialization
 # - Sliding window avoids repeated summation => O(n) time, O(1) space
-#
 # ⚙️ Improvements:
 # - Initially used a counter to track window size
 # - Later simplified using index-based window sliding

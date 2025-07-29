@@ -21,6 +21,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── canplotflowers.py
 │ ├── productofarrayexceptself.py
 │ ├── maxaveragesubarray1.py
+│ ├── differenceof2arrays.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -88,7 +89,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 26-07-2025 | Product of Array Except Self                                | Array          | Medium      |
 | 28-07-2025 | Maximum Average Subarray I                                  | Array          | Easy        |
 | 28-07-2025 | Maximum Number of Vowels in a Substring of Given Length     | String         | Medium      |
-
+| 29-07-2025 | Find the Difference of Two Arrays                           | Array          | Easy        |
 
 ## 📘 Progress Journal
 
