@@ -22,6 +22,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── productofarrayexceptself.py
 │ ├── maxaveragesubarray1.py
 │ ├── differenceof2arrays.py
+│ ├── uniquenoofoccurances.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -90,6 +91,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 28-07-2025 | Maximum Average Subarray I                                  | Array          | Easy        |
 | 28-07-2025 | Maximum Number of Vowels in a Substring of Given Length     | String         | Medium      |
 | 29-07-2025 | Find the Difference of Two Arrays                           | Array          | Easy        |
+| 29-07-2025 | Unique Number of Occurrences                                | Array          | Easy        |
+
 
 ## 📘 Progress Journal
 

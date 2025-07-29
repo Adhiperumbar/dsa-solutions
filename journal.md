@@ -462,6 +462,16 @@ Clean and optimal use of sliding window for character counting problems!
 🗓️ Date Solved: 29-07-2025
 🧠 Approach: Set Difference using HashMap (Python set)
 
-
+✅ Problem: Unique Number of Occurrences  
+🔗 LeetCode: https://leetcode.com/problems/unique-number-of-occurrences/  
+🗓️ Date Solved: 29-07-2025  
+🧠 Approach: Frequency Map + Set  
+📝 Notes:  
+Goal: Check whether the number of times each element appears in the array is unique.  
+Built a frequency dictionary `{element: count}` using a loop.  
+Used `set(values)` to get distinct frequencies.  
+If the number of unique frequencies equals the number of unique elements, return True.  
+✅ Time: O(n), ✅ Space: O(n)  
+A classic hashmap + set check for uniqueness!
 
 > ✨ More to come as I keep solving and learning every day!
