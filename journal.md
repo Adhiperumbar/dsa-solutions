@@ -487,5 +487,17 @@ Keep track of:
   `start` → left bound of the window
   `end` → right bound (expands over time)
   `count` → how many zeros are in the current window
-  
+
+🔹 Problem: Longest Subarray of 1's After Deleting One Element
+Link: [https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
+📅 Date Solved: 30-07-2025
+🧠 Approach: Sliding Window
+📄 Description:
+Given a binary array nums, return the length of the longest subarray of 1's after deleting one element.
+📝 Notes:
+We’re allowed to delete one element, so the window can include at most one 0.
+If there are more than 1 zero, shrink the window from the left.
+We calculate the window size as end - start instead of end - start + 1 to simulate deletion of one element.
+Efficient O(n) solution with constant space.
+
 > ✨ More to come as I keep solving and learning every day!

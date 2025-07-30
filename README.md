@@ -24,6 +24,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── differenceof2arrays.py
 │ ├── uniquenoofoccurances.py
 │ ├── maxconsecutiveones1.py
+│ ├── longestsubarrayof1safterdeletingoneelement.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -94,6 +95,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 29-07-2025 | Find the Difference of Two Arrays                           | Array          | Easy        |
 | 29-07-2025 | Unique Number of Occurrences                                | Array          | Easy        |
 | 30-07-2025 | Max Consecutive Ones III                                    | Array          | Medium      |
+| 30-07-2025 | Longest Subarray of 1's After Deleting One Element          | Array          | Medium      |
 
 ## 📘 Progress Journal
 
