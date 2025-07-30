@@ -474,4 +474,18 @@ If the number of unique frequencies equals the number of unique elements, return
 ✅ Time: O(n), ✅ Space: O(n)  
 A classic hashmap + set check for uniqueness!
 
+# 🗓 Date: 30 July 2025
+
+Problem: Max Consecutive Ones III
+Link: [https://leetcode.com/problems/max-consecutive-ones-iii](https://leetcode.com/problems/max-consecutive-ones-iii)
+Topic: Sliding Window
+Difficulty: Medium
+Date Solved: 30-07-25
+✅ What I Learned
+When asked for the longest subarray with at most `k` zeros flipped to `1`, use a sliding window.
+Keep track of:
+  `start` → left bound of the window
+  `end` → right bound (expands over time)
+  `count` → how many zeros are in the current window
+  
 > ✨ More to come as I keep solving and learning every day!
