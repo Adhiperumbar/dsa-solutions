@@ -488,7 +488,7 @@ Keep track of:
   `end` → right bound (expands over time)
   `count` → how many zeros are in the current window
 
-🔹 Problem: Longest Subarray of 1's After Deleting One Element
+Problem: Longest Subarray of 1's After Deleting One Element
 Link: [https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element)
 📅 Date Solved: 30-07-2025
 🧠 Approach: Sliding Window
@@ -499,5 +499,21 @@ We’re allowed to delete one element, so the window can include at most one 0.
 If there are more than 1 zero, shrink the window from the left.
 We calculate the window size as end - start instead of end - start + 1 to simulate deletion of one element.
 Efficient O(n) solution with constant space.
+
+# 🗓 Date: 31 July 2025
+
+Problem: Determine if Two Strings Are Close
+Link: https://leetcode.com/problems/determine-if-two-strings-are-close
+📅 Date Solved: 30-07-2025
+🧠 Approach: Frequency Count + Set Comparison
+📄 Description:
+Two strings are close if you can attain one from the other using the following operations any number of times:
+Swap any two characters.
+Transform every occurrence of one character into another and vice versa.
+📝 Notes:
+First, check if both strings use exactly the same set of characters.
+Then compare their frequency multisets (i.e., sorted counts of each character).
+If both conditions are met, the strings are considered close.
+This approach runs in O(n) time where n is the length of the strings.
 
 > ✨ More to come as I keep solving and learning every day!

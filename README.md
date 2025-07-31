@@ -32,6 +32,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── reverse_words.py
 │ ├── mergestringsalternatively.py
 │ ├── maxnoofvowelsinasubstringofgivenlength.py
+│ ├── determineif2stringsareclose.py
 ├── Hashmap/
 │ ├── group_anagrams.py
 │ ├── contains_duplicate.py
@@ -96,6 +97,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 29-07-2025 | Unique Number of Occurrences                                | Array          | Easy        |
 | 30-07-2025 | Max Consecutive Ones III                                    | Array          | Medium      |
 | 30-07-2025 | Longest Subarray of 1's After Deleting One Element          | Array          | Medium      |
+| 31-07-2025 | Determine if Two Strings Are Close                          | Strings        | Medium      |
 
 ## 📘 Progress Journal
 
