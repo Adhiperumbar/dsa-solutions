@@ -53,6 +53,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── Subsets2.py
 │ ├── sumofallsubsets_EXORtotal.py
 │ ├── Permutations.py
+├── Math/
+│ ├── checkdivisibilitybydigitsumandproduct.py
 ├── journal.md
 ---
 
@@ -100,6 +102,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 30-07-2025 | Longest Subarray of 1's After Deleting One Element          | Array          | Medium      |
 | 31-07-2025 | Determine if Two Strings Are Close                          | Strings        | Medium      |
 | 01-08-2025 | Maximum Median Sum of Subsequences of Size 3                | Array          | Medium      |
+| 01-08-2025 | Check Divisibility by Digit Sum and Product                 | Math           | Easy        |
 
 ## 📘 Progress Journal
 

@@ -516,6 +516,9 @@ Then compare their frequency multisets (i.e., sorted counts of each character).
 If both conditions are met, the strings are considered close.
 This approach runs in O(n) time where n is the length of the strings.
 
+
+# 🗓 Date: 01 August 2025 
+
 "Problem: Maximum Median Sum
 Link: https://leetcode.com/problems/maximum-median-sum-of-subsequences-of-size-3/description/
 📅 Date Solved: 01-08-2025
@@ -529,6 +532,21 @@ To maximize the total median sum, chose every 2nd largest element from the last 
 Specifically, picked elements at positions: n-2, n-4, ..., down to n//3.
 This strategy works because by choosing the top 3k numbers and carefully skipping one largest and one smallest per group, we can greedily pick the optimal medians.
 ✅ Time Complexity: O(n log n)
+✅ Space Complexity: O(1)
+
+Problem: Check Divisibility by Sum + Product of Digits
+Link: https://leetcode.com/problems/check-divisibility-by-digit-sum-and-product/
+📅 Date Solved: 30-07-2025
+🧠 Approach: Digit Extraction + Arithmetic
+📄 Description:
+Given an integer n, check whether it is divisible by the sum of its digits plus the product of its digits.
+📝 Notes:
+Extracted each digit using modulo (% 10) and integer division (// 10).
+Maintained two accumulators: digit_sum and digit_prod.
+Added both to get total.
+Final check: n % total == 0
+Carefully avoided variable names like sum and prod to prevent overriding Python built-ins.
+✅ Time Complexity: O(log₁₀n)
 ✅ Space Complexity: O(1)
 
 > ✨ More to come as I keep solving and learning every day!
