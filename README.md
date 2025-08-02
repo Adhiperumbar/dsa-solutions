@@ -4,6 +4,13 @@ This repository contains my personal solutions to LeetCode problems in Python, c
 I’m currently preparing for software engineering roles and using this repo to track my consistency, logic-building, and problem-solving skills.
 
 ---
+## 🚀 How to Run
+
+Each Python file contains a solution to a specific problem. You can run them directly with:
+
+```bash
+python filename.py
+---
 
 ## 📂 Folder Structure
 
