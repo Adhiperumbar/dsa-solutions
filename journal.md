@@ -549,4 +549,27 @@ Carefully avoided variable names like sum and prod to prevent overriding Python 
 ✅ Time Complexity: O(log₁₀n)
 ✅ Space Complexity: O(1)
 
+# 🗓 Date: 02 August 2025 
+
+🆔 Problem: 2561. Rearranging Fruits (Hard)
+📅 Date Solved: 02-08-2025
+🧠 Approach: Counter + Surplus Matching + Greedy Swapping
+📄 Description:
+You are given two fruit baskets (basket1 and basket2).
+You can swap any fruit between the baskets at a cost of min(fruit1, fruit2).
+The goal is to make the baskets identical (when sorted) using the minimum total cost, or return -1 if impossible.
+📝 Notes:
+Used collections.Counter to count fruit frequencies in both baskets.
+Removed perfectly matching pairs (normalization step).
+Checked if remaining mismatched counts were even (else return -1).
+Constructed to_move1 and to_move2 lists containing surplus fruits from each basket.
+Sorted to_move1 in ascending and to_move2 in descending order for greedy pairing.
+For each pair, calculated minimum of:
+direct swap cost,
+swap via cheapest fruit: 2 * min(all fruits)
+Summed all such minimum costs for final answer.
+✅ Time Complexity:
+O(n log n) due to sorting the surplus lists.
+✅ Space Complexity:
+O(n) for storing surplus fruit lists.
 > ✨ More to come as I keep solving and learning every day!

@@ -26,6 +26,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── maxconsecutiveones1.py
 │ ├── longestsubarrayof1safterdeletingoneelement.py
 │ ├── maxmediansum.py
+│ ├── rearrangingfruits.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -103,7 +104,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 31-07-2025 | Determine if Two Strings Are Close                          | Strings        | Medium      |
 | 01-08-2025 | Maximum Median Sum of Subsequences of Size 3                | Array          | Medium      |
 | 01-08-2025 | Check Divisibility by Digit Sum and Product                 | Math           | Easy        |
-
+| 01-08-2025 | Rearranging Fruits                                          | Array          | Hard        |
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
