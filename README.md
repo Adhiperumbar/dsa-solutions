@@ -57,6 +57,8 @@ I’m currently preparing for software engineering roles and using this repo to 
 │ ├── Permutations.py
 ├── Math/
 │ ├── checkdivisibilitybydigitsumandproduct.py
+├── BinarySearch/
+│ ├── guessnumberhigherorlower.py
 ├── journal.md
 ---
 
@@ -107,7 +109,7 @@ I’m currently preparing for software engineering roles and using this repo to 
 | 01-08-2025 | Check Divisibility by Digit Sum and Product                 | Math           | Easy        |
 | 02-08-2025 | Rearranging Fruits                                          | Array          | Hard        |
 | 02-08-2025 | Pascal's Triangle                                           | Array          | Easy        |
-
+| 09-08-2025 | Guess Number Higher Or Lower                                | Binary Search  | Easy        |
 
 ## 📘 Progress Journal
 

@@ -586,4 +586,19 @@ Built the triangle row by row iteratively.
 Time complexity: O(numRows^2)
 Space complexity: O(numRows^2)
 
+# 🗓 Date: 09 August 2025
+Problem Name: Guess Number Higher or Lower (LeetCode #374)
+Concepts Used: Binary Search
+Approach:
+I used a binary search approach to efficiently guess the number between 1 and n.
+Initially, set l = 1 and r = n.
+While l <= r, find the midpoint mid = (l + r) // 2.
+Use the provided guess() API to check:
+If guess(mid) == 0, the correct number is found; return mid.
+If guess(mid) == -1, the guessed number is too high; update r = mid - 1.
+If guess(mid) == 1, the guessed number is too low; update l = mid + 1.
+Reasoning:
+Binary search minimizes the number of guesses by halving the search space each time, making it O(log n) in time complexity.
+Time Complexity: O(log n)
+Space Complexity: O(1)
 > ✨ More to come as I keep solving and learning every day!
