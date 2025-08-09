@@ -590,7 +590,10 @@ Space complexity: O(numRows^2)
 Revision Week 
 
 # 🗓 Date: 09 August 2025
-Problem Name: Guess Number Higher or Lower (LeetCode #374)
+
+Problem Name: Guess Number Higher or Lower 
+📅 Date Solved: 09-08-2025
+ Leetcode link : https://leetcode.com/problems/guess-number-higher-or-lower/
 Concepts Used: Binary Search
 Approach:
 I used a binary search approach to efficiently guess the number between 1 and n.
