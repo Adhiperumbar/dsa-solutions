@@ -64,6 +64,7 @@ python filename.py
 │ ├── Permutations.py
 ├── Math/
 │ ├── checkdivisibilitybydigitsumandproduct.py
+│ ├── reorderedpowerOf2.py
 ├── BinarySearch/
 │ ├── guessnumberhigherorlower.py
 ├── journal.md
@@ -117,6 +118,7 @@ python filename.py
 | 02-08-2025 | Rearranging Fruits                                          | Array          | Hard        |
 | 02-08-2025 | Pascal's Triangle                                           | Array          | Easy        |
 | 09-08-2025 | Guess Number Higher Or Lower                                | Binary Search  | Easy        |
+| 10-08-2025 | Reordered Power of 2                                        | Math           | Medium      |
 
 ## 📘 Progress Journal
 
