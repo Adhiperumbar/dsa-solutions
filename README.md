@@ -35,6 +35,7 @@ python filename.py
 │ ├── maxmediansum.py
 │ ├── rearrangingfruits.py
 │ ├── pascalstriangle.py
+│ ├── rangeproductquesriesofPowers.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
