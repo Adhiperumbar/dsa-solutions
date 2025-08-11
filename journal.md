@@ -629,5 +629,14 @@ What I Learned:
 Powers of two have a very limited range for integers up to 10 digits, so brute-forcing all powers of two is efficient.
 Using sorted(str(num)) is a quick way to compare permutations of digits.
 
+# 🗓 Date: 11-08-2025
+✅ Problem: Range Product Queries of Powers
+🔗 LeetCode: https://leetcode.com/problems/range-product-queries-of-powers/
+🗓️ Date Solved: 11-08-2025
+🧠 Approach: Bit Manipulation + Prefix Sum
+I learned how prefix sums can simplify problems involving cumulative counts. Instead of recalculating counts for each split, I used prefix arrays for 0s and suffix arrays for 1s, making the split score calculation efficient.
+Time Complexity: O(n) – single pass to build prefix/suffix arrays + single pass to find max score.
+Space Complexity: O(n) – storing prefix and suffix arrays.
+
 
 > ✨ More to come as I keep solving and learning every day!
