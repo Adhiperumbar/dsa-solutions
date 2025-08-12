@@ -58,6 +58,7 @@ python filename.py
 │ ├── deleteanode.py
 │ ├── removenthnode.py
 | ├── deletethemiddlenode.py
+│ ├── removeduplicatesfromasortedlist.py
 ├── Backtracking/
 │ ├── Subsets.py
 │ ├── Subsets2.py
@@ -121,7 +122,7 @@ python filename.py
 | 09-08-2025 | Guess Number Higher Or Lower                                | Binary Search  | Easy        |
 | 10-08-2025 | Reordered Power of 2                                        | Math           | Medium      |
 | 11-08-2025 | Range Product Queries of Powers                             | Array          | Medium      |
-
+| 12-08-2025 | Remove Duplicates from Sorted Linked List                   | Linked List    | Medium      |
 
 ## 📘 Progress Journal
 
