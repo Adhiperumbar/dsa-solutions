@@ -68,6 +68,7 @@ python filename.py
 ├── Math/
 │ ├── checkdivisibilitybydigitsumandproduct.py
 │ ├── reorderedpowerOf2.py
+│ ├── powerOf3.py
 ├── BinarySearch/
 │ ├── guessnumberhigherorlower.py
 ├── journal.md
@@ -125,7 +126,7 @@ python filename.py
 | 11-08-2025 | Range Product Queries of Powers                             | Array          | Medium      |
 | 12-08-2025 | Remove Duplicates from Sorted Linked List                   | Linked List    | Medium      |
 | 13-08-2025 | Merge Two Sorted Lists                                      | Linked List    | Easy        |
-
+| 13-08-2025 | Power of Three                                              | Math           | Easy        |
 
 ## 📘 Progress Journal
 

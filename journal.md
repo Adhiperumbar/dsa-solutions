@@ -672,5 +672,16 @@ Maintain a tail pointer that always points to the last node in the merged list.
 Compare the current nodes of list1 and list2, attach the smaller one to tail, and move that list forward.
 When one list is exhausted, attach the remainder of the other list.
 
+✅ Problem: Power of Three
+🔗 LeetCode: https://leetcode.com/problems/power-of-three
+🗓️ Date Solved: 13-08-2025
+🧠 Approach: Iterative Division + Backtracking
+I learned that checking if a number is a power of three can be done by repeatedly dividing by 3 until reaching 1 (iterative) or by recursively multiplying by 3 starting from 1 (backtracking). Iterative division is more space-efficient, while backtracking is useful for practicing recursion patterns.
+Time Complexity: O(log₃ n) – number reduces by a factor of 3 each step.
+Space Complexity:
+
+Iterative: O(1) – constant extra space.
+
+Backtracking: O(log₃ n) – recursion stack space.
 
 > ✨ More to come as I keep solving and learning every day!
