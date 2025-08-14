@@ -44,6 +44,7 @@ python filename.py
 │ ├── mergestringsalternatively.py
 │ ├── maxnoofvowelsinasubstringofgivenlength.py
 │ ├── determineif2stringsareclose.py
+│ ├── largest3digitnoinastring.py
 ├── Hashmap/
 │ ├── group_anagrams.py
 │ ├── contains_duplicate.py
@@ -127,6 +128,7 @@ python filename.py
 | 12-08-2025 | Remove Duplicates from Sorted Linked List                   | Linked List    | Medium      |
 | 13-08-2025 | Merge Two Sorted Lists                                      | Linked List    | Easy        |
 | 13-08-2025 | Power of Three                                              | Math           | Easy        |
+| 14-08-2025 | Largest 3-Same-Digit Number in String                       | Sring          | Easy        |
 
 ## 📘 Progress Journal
 
