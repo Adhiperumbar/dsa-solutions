@@ -690,4 +690,12 @@ Backtracking: O(log₃ n) – recursion stack space.
 🧠 Approach: Sliding Window (size = 3)
 I used a fixed-size sliding window to check every triplet in the string. For each window, if all three digits were the same, I compared it with my current maximum. Since the input remains a string, direct lexicographic comparison worked. Learned the importance of avoiding unnecessary list() conversion in string problems — it broke comparisons earlier by turning slices into lists. Also, remembered not to shadow built-in functions like max.
 
+# 🗓 Date: 15-08-2025
+
+✅ Problem: Power of Four
+🔗 LeetCode: https://leetcode.com/problems/power-of-four/
+🗓️ Date Solved: 15-08-2025
+🧠 Approach: Iterative Division
+I checked if n is a positive number first. Then, I repeatedly divided n by 4 as long as it was divisible by 4. If the final result equals 1, then n is a power of four. This approach is simple, avoids floating-point issues, and has logarithmic complexity.
+
 > ✨ More to come as I keep solving and learning every day!
