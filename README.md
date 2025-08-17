@@ -71,6 +71,7 @@ python filename.py
 │ ├── reorderedpowerOf2.py
 │ ├── powerOf3.py
 │ ├── powerOf4.py
+│ ├── maximum69number.py
 ├── BinarySearch/
 │ ├── guessnumberhigherorlower.py
 ├── journal.md
@@ -131,6 +132,7 @@ python filename.py
 | 13-08-2025 | Power of Three                                              | Math           | Easy        |
 | 14-08-2025 | Largest 3-Same-Digit Number in String                       | Sring          | Easy        |
 | 15-08-2025 | Power of Four                                               | Math           | Easy        |
+| 17-08-2025 | Maximum 69 Number                                           | Math           | Easy        |
 
 ## 📘 Progress Journal
 
