@@ -708,4 +708,21 @@ The problem asks to maximize a number made of digits 6 and 9 by changing at most
 Complexities:
 ⏱ Time Complexity: O(d) where d is the number of digits in num (string conversion + replace + int conversion).
 📦 Space Complexity: O(d) for storing the string representation of num.
+
+
+# 🗓 Date: 19-08-2025
+
+Problem: Number of Zero-Filled Subarrays (LeetCode 2348)
+Problem Link: https://leetcode.com/problems/number-of-zero-filled-subarrays
+Date Solved: 19-08-2025
+Approach: Counting Consecutive Zeros
+Iterate through the array while tracking consecutive zeros (count).
+When a non-zero appears, calculate subarrays from the streak:
+subarrays=count×(count+1)
+Reset count and continue.
+At the end, add contribution of the last streak.
+Complexity:
+Time: O(n) (single pass)
+Space: O(1) (only counters used)
+
 > ✨ More to come as I keep solving and learning every day!

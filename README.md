@@ -37,6 +37,7 @@ python filename.py
 │ ├── rearrangingfruits.py
 │ ├── pascalstriangle.py
 │ ├── rangeproductquesriesofPowers.py
+│ ├── numberofzerofilledsubarrays.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -134,6 +135,7 @@ python filename.py
 | 14-08-2025 | Largest 3-Same-Digit Number in String                       | Sring          | Easy        |
 | 15-08-2025 | Power of Four                                               | Math           | Easy        |
 | 17-08-2025 | Maximum 69 Number                                           | Math           | Easy        |
+| 19-08-2025 | Number of Zero-Filled Subarrays                             | Array          | Medium      |
 
 ## 📘 Progress Journal
 
