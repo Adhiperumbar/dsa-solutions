@@ -725,4 +725,25 @@ Complexity:
 Time: O(n) (single pass)
 Space: O(1) (only counters used)
 
+# 🗓 Date: 20-08-2025
+
+✅ Problem: Binary Tree Inorder Traversal
+🔗 LeetCode: https://leetcode.com/problems/binary-tree-inorder-traversal   
+🗓️ Date Solved: 20-08-2025
+🧠 Approach: Iterative Inorder Traversal using Stack
+Used a stack to simulate the recursive behavior of inorder traversal.
+Keep pushing nodes while going left, then pop, process value, and move right.
+This avoids recursion and handles large trees efficiently.
+📜 Key Steps:
+Initialize stack = [] and cur = root.
+Traverse left until cur is None, pushing nodes to stack.
+Pop node from stack, add its value to res.
+Move to right child and repeat until both stack and cur are empty.
+⏱️ Complexity:
+Time: O(n) (every node is pushed and popped once).
+Space: O(n) (stack in worst case when tree is skewed).
+💡 Learning:
+Iterative inorder traversal is a great alternative to recursion.
+Helped me understand how recursion works under the hood by mimicking the call stack manually.
+
 > ✨ More to come as I keep solving and learning every day!

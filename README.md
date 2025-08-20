@@ -55,6 +55,7 @@ python filename.py
 ├── Stack/
 │ ├── valid_parentheses.py
 │ ├── removestarsfromastring.py
+│ ├── binarytreeinorder.py
 ├── Linked Lists/
 │ ├── reverselinkedlist.py
 │ ├── palindromelinkedlist.py
@@ -136,6 +137,7 @@ python filename.py
 | 15-08-2025 | Power of Four                                               | Math           | Easy        |
 | 17-08-2025 | Maximum 69 Number                                           | Math           | Easy        |
 | 19-08-2025 | Number of Zero-Filled Subarrays                             | Array          | Medium      |
+| 20-08-2025 | Binary Tree Inorder Traversal                               | Stacks         | Easy        |
 
 ## 📘 Progress Journal
 
