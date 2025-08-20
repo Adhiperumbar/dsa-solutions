@@ -746,4 +746,21 @@ Space: O(n) (stack in worst case when tree is skewed).
 Iterative inorder traversal is a great alternative to recursion.
 Helped me understand how recursion works under the hood by mimicking the call stack manually.
 
+# 🗓 Date: 21-08-2025
+
+✅ Problem: 144. Binary Tree Preorder Traversal
+🔗 LeetCode: https://leetcode.com/problems/binary-tree-preorder-traversal/
+🗓️ Date Solved: 21-08-2025
+🧠 Approach: Iterative Preorder Traversal using Stack
+Preorder traversal follows Root → Left → Right order.
+Used a stack to simulate recursion.
+Start by pushing the root node into the stack.
+At each step:
+Pop the node, process it (res.append(node.val)),
+Push the right child (if any), then the left child (if any) → ensures left is processed first.
+⏱️ Time Complexity: O(n) – each node is visited once.
+💾 Space Complexity: O(n) – in the worst case (skewed tree), the stack holds all nodes.
+✅ Key Learning
+Preorder traversal can be done iteratively by pushing nodes in reverse order (right before left) to maintain correct processing order. This avoids recursion and works efficiently for large trees.
+
 > ✨ More to come as I keep solving and learning every day!
