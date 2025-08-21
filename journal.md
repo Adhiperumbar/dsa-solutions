@@ -763,4 +763,20 @@ Push the right child (if any), then the left child (if any) → ensures left is 
 ✅ Key Learning
 Preorder traversal can be done iteratively by pushing nodes in reverse order (right before left) to maintain correct processing order. This avoids recursion and works efficiently for large trees.
 
+✅ Problem: 145. Binary Tree Postorder Traversal
+🔗 LeetCode: https://leetcode.com/problems/binary-tree-postorder-traversal/
+🗓️ Date Solved: 21-08-2025
+🧠 Approach: Iterative Postorder Traversal using Two Stacks
+Postorder traversal follows Left → Right → Root order.
+Used two stacks to simulate recursion and reverse the node processing order.
+Start by pushing the root node into the first stack.
+At each step:
+Pop a node from the first stack and push its value to the second stack.
+Push the left child (if any), then the right child (if any) into the first stack.
+After processing all nodes, pop all values from the second stack to get the postorder sequence.
+⏱️ Time Complexity: O(n) – each node is visited once.
+💾 Space Complexity: O(n) – in the worst case, both stacks hold all nodes.
+✅ Key Learning:
+Postorder traversal can be implemented iteratively by reversing the processing order of a modified preorder traversal (Root → Right → Left) using two stacks. This method provides a clear and efficient way to perform postorder traversal without recursion.
+
 > ✨ More to come as I keep solving and learning every day!

@@ -57,6 +57,7 @@ python filename.py
 │ ├── removestarsfromastring.py
 │ ├── binarytreeinorder.py
 │ ├── binarytreepreorder.py
+│ ├── binarytreepostorder.py
 ├── Linked Lists/
 │ ├── reverselinkedlist.py
 │ ├── palindromelinkedlist.py
@@ -140,6 +141,8 @@ python filename.py
 | 19-08-2025 | Number of Zero-Filled Subarrays                             | Array          | Medium      |
 | 20-08-2025 | Binary Tree Inorder Traversal                               | Stacks         | Easy        |
 | 21-08-2025 | Binary Tree Preorder Traversal                              | Stacks         | Easy        |
+| 22-08-2025 | Binary Tree Preorder Traversal                              | Stacks         | Easy        |
+
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
