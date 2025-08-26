@@ -79,6 +79,8 @@ python filename.py
 │ ├── maximum69number.py
 ├── BinarySearch/
 │ ├── guessnumberhigherorlower.py
+├── DP/
+│ ├── houserobbery.py
 ├── journal.md
 ---
 
@@ -141,7 +143,8 @@ python filename.py
 | 19-08-2025 | Number of Zero-Filled Subarrays                             | Array          | Medium      |
 | 20-08-2025 | Binary Tree Inorder Traversal                               | Stacks         | Easy        |
 | 21-08-2025 | Binary Tree Preorder Traversal                              | Stacks         | Easy        |
-| 22-08-2025 | Binary Tree Preorder Traversal                              | Stacks         | Easy        |
+| 22-08-2025 | Binary Tree Postorder Traversal                             | Stacks         | Easy        |
+| 26-08-2025 | House Robber                                                | DP             | Medium      |
 
 ## 📘 Progress Journal
 

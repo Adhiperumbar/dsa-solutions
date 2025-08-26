@@ -1,7 +1,6 @@
 """
 ✅ Problem: House Robber
 🔗 LeetCode Link: [198. House Robber] https://leetcode.com/problems/house-robber/ 
-
 🗓️ Date Solved: 26-08-2025
 🧠 Approach: Dynamic Programming (Optimized with Two Variables)
 Maintained two variables:

@@ -765,7 +765,7 @@ Preorder traversal can be done iteratively by pushing nodes in reverse order (ri
 
 ✅ Problem: 145. Binary Tree Postorder Traversal
 🔗 LeetCode: https://leetcode.com/problems/binary-tree-postorder-traversal/
-🗓️ Date Solved: 21-08-2025
+🗓️ Date Solved: 22-08-2025
 🧠 Approach: Iterative Postorder Traversal using Two Stacks
 Postorder traversal follows Left → Right → Root order.
 Used two stacks to simulate recursion and reverse the node processing order.
@@ -778,5 +778,26 @@ After processing all nodes, pop all values from the second stack to get the post
 💾 Space Complexity: O(n) – in the worst case, both stacks hold all nodes.
 ✅ Key Learning:
 Postorder traversal can be implemented iteratively by reversing the processing order of a modified preorder traversal (Root → Right → Left) using two stacks. This method provides a clear and efficient way to perform postorder traversal without recursion.
+
+# 🗓 Date: 26-08-2025
+
+✅ Problem: House Robber
+🔗 LeetCode Link: https://leetcode.com/problems/house-robber/ 
+🗓️ Date Solved: 26-08-2025
+🧠 Approach: Dynamic Programming (Optimized with Two Variables)
+Maintained two variables:
+rob1 → maximum amount robbed up to the previous house
+rob2 → maximum amount robbed up to the house before the previous one
+For each house value num:
+Calculated new_rob = max(rob1, rob2 + num)
+Updated rob2 = rob1 and rob1 = new_rob
+Returned rob1 as the maximum amount that can be robbed.
+💡 Key Points:
+Optimized solution using O(1) space instead of a full DP array.
+Simple and clean iteration, only updating two variables.
+Works for any list of non-negative house values.
+⏱ Complexity:
+Time: O(n) — iterates through the list once.
+Space: O(1) — only two extra variables used.
 
 > ✨ More to come as I keep solving and learning every day!
