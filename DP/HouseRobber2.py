@@ -1,7 +1,7 @@
 """
 ✅ Problem: House Robber II (Circular Houses)
 🔗 LeetCode: https://leetcode.com/problems/house-robber-ii/
-🗓️ Date Solved: [fill your date]
+🗓️ Date Solved: 27-08-2025
 🧠 Approach: Dynamic Programming + Two Variables
 Since the houses are circular, the first and last house cannot both be robbed
 Defined a helper function robb to solve the linear version (House Robber I) using two variables

@@ -80,7 +80,8 @@ python filename.py
 ├── BinarySearch/
 │ ├── guessnumberhigherorlower.py
 ├── DP/
-│ ├── houserobbery.py
+│ ├── houserobber.py
+│ ├── houserobber2.py
 ├── journal.md
 ---
 
@@ -145,7 +146,7 @@ python filename.py
 | 21-08-2025 | Binary Tree Preorder Traversal                              | Stacks         | Easy        |
 | 22-08-2025 | Binary Tree Postorder Traversal                             | Stacks         | Easy        |
 | 26-08-2025 | House Robber                                                | DP             | Medium      |
-
+| 27-08-2025 | House Robber II                                             | DP             | Medium      |
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
