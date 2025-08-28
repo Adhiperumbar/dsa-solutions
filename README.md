@@ -147,6 +147,7 @@ python filename.py
 | 22-08-2025 | Binary Tree Postorder Traversal                             | Stacks         | Easy        |
 | 26-08-2025 | House Robber                                                | DP             | Medium      |
 | 27-08-2025 | House Robber II                                             | DP             | Medium      |
+
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
