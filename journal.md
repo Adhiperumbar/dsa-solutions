@@ -800,7 +800,7 @@ Works for any list of non-negative house values.
 Time: O(n) — iterates through the list once.
 Space: O(1) — only two extra variables used.
 
-# 🗓 Date: 26-08-2025
+# 🗓 Date: 27-08-2025
 
 ✅ Problem: House Robber II (Circular Houses)
 🔗 LeetCode: https://leetcode.com/problems/house-robber-ii/
@@ -824,5 +824,7 @@ Works for empty lists or single-house cases.
 ⏱ Complexity:
 Time: O(n) — iterates through each sublist once.
 Space: O(1) — only a few variables used, no extra data structures.
+
+# 🗓 Date: 28-08-2025
 
 > ✨ More to come as I keep solving and learning every day!
