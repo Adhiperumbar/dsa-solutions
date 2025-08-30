@@ -38,6 +38,7 @@ python filename.py
 │ ├── pascalstriangle.py
 │ ├── rangeproductquesriesofPowers.py
 │ ├── numberofzerofilledsubarrays.py
+│ ├── absdiffofevenodd.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -147,6 +148,8 @@ python filename.py
 | 22-08-2025 | Binary Tree Postorder Traversal                             | Stacks         | Easy        |
 | 26-08-2025 | House Robber                                                | DP             | Medium      |
 | 27-08-2025 | House Robber II                                             | DP             | Medium      |
+| 29-08-2025 | Absolute difference of sum of all even and all odd numbers  | Array          | Easy        |
+
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
