@@ -825,6 +825,7 @@ Works for empty lists or single-house cases.
 Time: O(n) — iterates through each sublist once.
 Space: O(1) — only a few variables used, no extra data structures.
 
+<<<<<<< HEAD
 # 🗓 Date: 29-08-2025
 
 ✅ Problem: Difference Between Sum of Even and Odd Numbers
@@ -865,5 +866,8 @@ Simple iteration with dynamic updating of sums.
 ⏱ Complexity:
 Time: O(n) — single pass through the array.
 Space: O(1) — only two variables used.
+=======
+# 🗓 Date: 28-08-2025
+>>>>>>> 4e4ffce20237d5358f82695ae8aeb01d0b2d1139
 
 > ✨ More to come as I keep solving and learning every day!

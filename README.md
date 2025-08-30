@@ -149,8 +149,11 @@ python filename.py
 | 22-08-2025 | Binary Tree Postorder Traversal                             | Stacks         | Easy        |
 | 26-08-2025 | House Robber                                                | DP             | Medium      |
 | 27-08-2025 | House Robber II                                             | DP             | Medium      |
+<<<<<<< HEAD
 | 29-08-2025 | Absolute difference of sum of all even and all odd numbers  | Array          | Easy        |
 | 30-08-2025 | Maximum Subarray                                            | Array          | Medium      |
+=======
+>>>>>>> 4e4ffce20237d5358f82695ae8aeb01d0b2d1139
 
 ## 📘 Progress Journal
 
