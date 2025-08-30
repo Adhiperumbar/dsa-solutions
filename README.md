@@ -39,6 +39,7 @@ python filename.py
 │ ├── rangeproductquesriesofPowers.py
 │ ├── numberofzerofilledsubarrays.py
 │ ├── absdiffofevenodd.py
+│ ├── maximumsubarray.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -149,6 +150,7 @@ python filename.py
 | 26-08-2025 | House Robber                                                | DP             | Medium      |
 | 27-08-2025 | House Robber II                                             | DP             | Medium      |
 | 29-08-2025 | Absolute difference of sum of all even and all odd numbers  | Array          | Easy        |
+| 30-08-2025 | Maximum Subarray                                            | Array          | Medium      |
 
 ## 📘 Progress Journal
 

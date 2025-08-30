@@ -800,7 +800,7 @@ Works for any list of non-negative house values.
 Time: O(n) — iterates through the list once.
 Space: O(1) — only two extra variables used.
 
-# 🗓 Date: 26-08-2025
+# 🗓 Date: 27-08-2025
 
 ✅ Problem: House Robber II (Circular Houses)
 🔗 LeetCode: https://leetcode.com/problems/house-robber-ii/
@@ -825,6 +825,8 @@ Works for empty lists or single-house cases.
 Time: O(n) — iterates through each sublist once.
 Space: O(1) — only a few variables used, no extra data structures.
 
+# 🗓 Date: 29-08-2025
+
 ✅ Problem: Difference Between Sum of Even and Odd Numbers
 🗓️ Date Solved: 29-08-2025
 🧠 Approach: Iteration + Simple Arithmetic
@@ -841,5 +843,27 @@ abs() ensures result is always non-negative.
 ⏱ Complexity:
 Time: O(n) — traverses the array once.
 Space: O(1) — only a few variables used.
+
+
+# 🗓 Date: 30-08-2025
+
+✅ Problem: Maximum Subarray
+🔗 LeetCode: 53. Maximum Subarray
+🗓️ Date Solved: 30-08-2025
+🧠 Approach: Kadane’s Algorithm (Dynamic Programming)
+Maintained two variables:
+cs → current maximum subarray sum ending at current index
+ms → overall maximum subarray sum found so far
+For each element nums[i]:
+cs = max(nums[i], cs + nums[i]) → either start new subarray or extend current one
+ms = max(ms, cs) → update overall maximum
+Returned ms as the maximum subarray sum.
+💡 Key Points:
+Efficient O(n) time solution using O(1) space.
+Handles negative numbers and all-positive arrays.
+Simple iteration with dynamic updating of sums.
+⏱ Complexity:
+Time: O(n) — single pass through the array.
+Space: O(1) — only two variables used.
 
 > ✨ More to come as I keep solving and learning every day!
