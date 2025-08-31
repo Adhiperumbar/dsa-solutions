@@ -801,6 +801,7 @@ Time: O(n) — iterates through the list once.
 Space: O(1) — only two extra variables used.
 
 # 🗓 Date: 27-08-2025
+# 🗓 Date: 27-08-2025
 
 ✅ Problem: House Robber II (Circular Houses)
 🔗 LeetCode: https://leetcode.com/problems/house-robber-ii/
@@ -825,7 +826,6 @@ Works for empty lists or single-house cases.
 Time: O(n) — iterates through each sublist once.
 Space: O(1) — only a few variables used, no extra data structures.
 
-<<<<<<< HEAD
 # 🗓 Date: 29-08-2025
 
 ✅ Problem: Difference Between Sum of Even and Odd Numbers
@@ -866,8 +866,22 @@ Simple iteration with dynamic updating of sums.
 ⏱ Complexity:
 Time: O(n) — single pass through the array.
 Space: O(1) — only two variables used.
-=======
-# 🗓 Date: 28-08-2025
->>>>>>> 4e4ffce20237d5358f82695ae8aeb01d0b2d1139
+
+# 🗓 Date: 31-08-2025
+
+✅Problem: Count and Say
+🔗LeetCode: 38. Count and Say
+🗓️Date Solved: 31-08-2025
+🧠Approach: Iterative String Construction
+Start with res="1".
+For each iteration up to n: traverse res, count consecutive identical digits, build temp="<count><digit>", then update res=temp.
+Return res after n iterations.
+💡Key Points:
+Nested loops count consecutive characters.
+Builds next term iteratively without recursion.
+Works for all n≥1.
+⏱Complexity:
+Time: O(2ⁿ)
+Space: O(2ⁿ)
 
 > ✨ More to come as I keep solving and learning every day!
