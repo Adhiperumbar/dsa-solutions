@@ -80,6 +80,7 @@ python filename.py
 │ ├── powerOf3.py
 │ ├── powerOf4.py
 │ ├── maximum69number.py
+│ ├── addbinary.py
 ├── BinarySearch/
 │ ├── guessnumberhigherorlower.py
 ├── DP/
@@ -153,6 +154,7 @@ python filename.py
 | 29-08-2025 | Absolute difference of sum of all even and all odd numbers  | Array          | Easy        |
 | 30-08-2025 | Maximum Subarray                                            | Array          | Medium      |
 | 31-08-2025 | Count And Say                                               | String         | Medium      |
+| 01-09-2025 | Add Binary                                                  | Math           | Easy        |
 
 ## 📘 Progress Journal
 
