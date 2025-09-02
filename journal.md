@@ -906,4 +906,22 @@ Carry handling in binary addition.
 String manipulation and reversing.
 Time Complexity: O(n) (where n = max(len(a), len(b)))
 Space Complexity: O(n) (for the result list).
+
+# 🗓 Date: 02-09-2025
+
+Date: 02-09-2025
+Explanation:
+Convert binary strings a and b to integers.
+Use bitwise operations to simulate binary addition:
+carry = a & b → identifies positions where both bits are 1.
+a = a ^ b → adds bits without considering carry.
+b = carry << 1 → shifts carry left (since carry applies to the next higher bit).
+Repeat until b becomes 0 (no more carry).
+Convert final integer result back to binary string using bin(a)[2:].
+Learning/Observation:
+This approach avoids string reversal and manual digit-by-digit addition.
+Works entirely with bitwise operators (&, ^, <<).
+Mimics how hardware binary addition works.
+More efficient than handling strings when numbers are large.
+
 > ✨ More to come as I keep solving and learning every day!

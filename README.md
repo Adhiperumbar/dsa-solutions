@@ -155,7 +155,7 @@ python filename.py
 | 30-08-2025 | Maximum Subarray                                            | Array          | Medium      |
 | 31-08-2025 | Count And Say                                               | String         | Medium      |
 | 01-09-2025 | Add Binary                                                  | Math           | Easy        |
-
+| 02-09-2025 | Add Binary(Optimal)                                         | Math           | Easy        |
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).

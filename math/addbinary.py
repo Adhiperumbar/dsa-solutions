@@ -37,3 +37,27 @@ class Solution:
             res.append(str(t%2))
             c=t//2
         return "".join(reversed(res))
+    
+"""
+Explanation:
+Convert binary strings a and b to integers.
+Use bitwise operations to simulate binary addition:
+carry = a & b → identifies positions where both bits are 1.
+a = a ^ b → adds bits without considering carry.
+b = carry << 1 → shifts carry left (since carry applies to the next higher bit).
+Repeat until b becomes 0 (no more carry).
+Convert final integer result back to binary string using bin(a)[2:].
+Learning/Observation:
+This approach avoids string reversal and manual digit-by-digit addition.
+Works entirely with bitwise operators (&, ^, <<).
+Mimics how hardware binary addition works.
+More efficient than handling strings when numbers are large."""
+class Solution:
+    def addBinary(self, a: str, b: str) -> str:
+        a = int(a, 2)
+        b = int(b, 2)
+        while b != 0:
+            carry = a & b
+            a = a ^ b
+            b = carry << 1
+        return bin(a)[2:]
