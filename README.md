@@ -50,6 +50,7 @@ python filename.py
 │ ├── determineif2stringsareclose.py
 │ ├── largest3digitnoinastring.py
 │ ├── Count&Say.py
+│ ├── findtheoccuranceoffirstoccurenceinstring.py
 ├── Hashmap/
 │ ├── group_anagrams.py
 │ ├── contains_duplicate.py
@@ -156,6 +157,7 @@ python filename.py
 | 31-08-2025 | Count And Say                                               | String         | Medium      |
 | 01-09-2025 | Add Binary                                                  | Math           | Easy        |
 | 02-09-2025 | Add Binary(Optimal)                                         | Math           | Easy        |
+| 03-09-2025 | Find the Index of the First Occurrence in a String          | Sring          | Easy        |
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
