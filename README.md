@@ -40,6 +40,7 @@ python filename.py
 │ ├── numberofzerofilledsubarrays.py
 │ ├── absdiffofevenodd.py
 │ ├── maximumsubarray.py
+│ ├── stonegame.py
 ├── Strings/
 │ ├── valid_anagram.py
 │ ├── first_unique_character.py
@@ -158,6 +159,8 @@ python filename.py
 | 01-09-2025 | Add Binary                                                  | Math           | Easy        |
 | 02-09-2025 | Add Binary(Optimal)                                         | Math           | Easy        |
 | 03-09-2025 | Find the Index of the First Occurrence in a String          | Sring          | Easy        |
+| 04-09-2025 | Stone Game                                                  | Array          | Medium      |
+
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
