@@ -89,6 +89,7 @@ python filename.py
 │ ├── houserobber.py
 │ ├── houserobber2.py
 │ ├── climbingstairs.py
+│ ├── fibonacci.py
 ├── journal.md
 ---
 
@@ -162,6 +163,7 @@ python filename.py
 | 03-09-2025 | Find the Index of the First Occurrence in a String          | Sring          | Easy        |
 | 04-09-2025 | Stone Game                                                  | Array          | Medium      |
 | 05-09-2025 | Climbing Stairs                                             | DP             | Easy        |
+| 05-09-2025 | Fibonacci Number                                            | DP             | Easy        |
 
 ## 📘 Progress Journal
 
