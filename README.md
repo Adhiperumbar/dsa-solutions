@@ -88,6 +88,7 @@ python filename.py
 ├── DP/
 │ ├── houserobber.py
 │ ├── houserobber2.py
+│ ├── climbingstairs.py
 ├── journal.md
 ---
 
@@ -160,6 +161,7 @@ python filename.py
 | 02-09-2025 | Add Binary(Optimal)                                         | Math           | Easy        |
 | 03-09-2025 | Find the Index of the First Occurrence in a String          | Sring          | Easy        |
 | 04-09-2025 | Stone Game                                                  | Array          | Medium      |
+| 05-09-2025 | Climbing Stairs                                             | DP             | Easy        |
 
 ## 📘 Progress Journal
 

@@ -966,5 +966,47 @@ The classic Stone Game solution uses dynamic programming or mathematical reasoni
 This approach checks based on even vs odd sums, which is a simplified greedy idea.
 Status: ✅ Attempted with a working greedy approach.
 
+# 🗓 Date: 05-09-2025
+
+Date: 05-09-2025
+Problem: Climbing Stairs (LeetCode 70)
+Problem Statement:
+You are climbing a staircase with n steps. You can take either 1 or 2 steps at a time. Return the number of distinct ways to reach the top.
+Approach:
+Handle base cases:
+If n == 1, return 1.
+If n == 2, return 2.
+Use dynamic programming to store the number of ways to reach each step:
+Initialize dp array of size n.
+dp[0] = 1 → 1 way to reach step 1.
+dp[1] = 2 → 2 ways to reach step 2.
+For each step i from 2 to n-1:
+dp[i] = dp[i-1] + dp[i-2] → ways to reach step i = sum of ways to reach previous two steps.
+Return dp[n-1] as the total number of ways.
+Key Concepts Used:
+Dynamic Programming
+Fibonacci sequence pattern
+Time Complexity: O(n) – single pass to fill DP array
+Space Complexity: O(n) – DP array of size n
+
+Optimised solution:
+Date: 05-09-2025
+Problem: Climbing Stairs (LeetCode 70)
+Problem Statement:
+You are climbing a staircase with n steps. You can take either 1 or 2 steps at a time. Return the number of distinct ways to reach the top.
+Approach (Optimized Space):
+Handle base case: if n == 1, return 1.
+Use two variables a and b to track the number of ways to reach the previous two steps:
+a = 1 → ways to reach step 1
+b = 2 → ways to reach step 2
+For each step i from 2 to n-1:
+Update a, b = b, a + b → shift previous values and calculate current ways.
+Return b as the total number of ways to reach step n.
+Key Concepts Used:
+Dynamic Programming
+Fibonacci sequence pattern
+Space optimization using two variables
+Time Complexity: O(n) – iterates through steps once
+Space Complexity: O(1) – only two variables used
 
 > ✨ More to come as I keep solving and learning every day!
