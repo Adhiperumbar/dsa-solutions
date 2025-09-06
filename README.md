@@ -94,6 +94,7 @@ python filename.py
 ├── Kadane/
 │ ├── maximumsumcircularsubarray.py
 │ ├── maximumsubarray.py
+│ ├── maximumproductsubarray.py
 ├── journal.md
 ---
 
@@ -171,7 +172,7 @@ python filename.py
 | 06-09-2025 | Maximum Sum Circular Subarray                               | Kadane         | Medium      |
 | 06-09-2025 | Maximum Subarray                                            | Kadane         | Medium      |
 | 06-09-2025 | Min Cost Climbing Stairs                                    | DP             | Easy        |
-
+| 06-09-2025 | Maximum Product Subarray                                    | Kadane         | Medium      |
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
