@@ -101,6 +101,7 @@ python filename.py
 
 ## 📌 Problems Solved
 
+
 | Date       | Problem                                                     | Category       | Difficulty  |
 |------------|-------------------------------------------------------------|----------------|-------------|
 | 09-07-2025 | Valid Anagram                                               | String         | Easy        |
