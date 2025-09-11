@@ -1162,4 +1162,22 @@ Two-pointer method
 In-place swapping
 Time Complexity: O(n) – traverses the list once.
 Space Complexity: O(1) – constant extra space.
+
+Date: 11-09-2025
+Problem: Linked List Cycle (LeetCode 141)
+Problem Statement:
+Given the head of a linked list, determine if the linked list has a cycle in it. A cycle exists if some node can be reached again by continuously following the next pointer.
+Approach (Floyd’s Cycle Detection / Tortoise and Hare):
+Use two pointers:
+slow → moves one step at a time.
+fast → moves two steps at a time.
+Traverse the list:
+If at any point fast == slow, a cycle is detected.
+If fast or fast.next becomes None, the list ends and no cycle exists.
+Key Concepts Used:
+Floyd’s Cycle Detection Algorithm
+Two-pointer technique
+Time Complexity: O(n) – at most one full traversal of the list.
+Space Complexity: O(1) – constant space used.
+
 > ✨ More to come as I keep solving and learning every day!

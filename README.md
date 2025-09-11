@@ -73,6 +73,7 @@ python filename.py
 │ ├── removeduplicatesfromasortedlist.py
 │ ├── merge2sortedlists.py
 │ ├── add2numbers.py
+│ ├── linkedlistcycle.py
 ├── Backtracking/
 │ ├── Subsets.py
 │ ├── Subsets2.py
@@ -178,6 +179,7 @@ python filename.py
 | 06-09-2025 | Maximum Product Subarray                                    | Kadane         | Medium      |
 | 07-09-2025 | Add Two Numbers                                             | Linked List    | Medium      |
 | 11-09-2025 | Move Zeroes                                                 | Array          | Easy        |
+| 11-09-2025 | Linked List Cycle                                           | Linked List    | Medium      |
 
 ## 📘 Progress Journal
 
