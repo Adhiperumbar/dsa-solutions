@@ -86,6 +86,7 @@ python filename.py
 │ ├── powerOf4.py
 │ ├── maximum69number.py
 │ ├── addbinary.py
+│ ├── reverseint.py
 ├── BinarySearch/
 │ ├── guessnumberhigherorlower.py
 ├── DP/
@@ -180,7 +181,7 @@ python filename.py
 | 07-09-2025 | Add Two Numbers                                             | Linked List    | Medium      |
 | 11-09-2025 | Move Zeroes                                                 | Array          | Easy        |
 | 11-09-2025 | Linked List Cycle                                           | Linked List    | Medium      |
-
+| 07-10-2025 | Reverse Integer                                             | Math           | Medium      |
 ## 📘 Progress Journal
 
 You can view my reflections and approaches in [`journal.md`](journal.md).
